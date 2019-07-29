@@ -19,3 +19,6 @@ sudo dpkg-reconfigure locales
 ```
 A window will appear, just ignore everything and lick "ok"
 
+To install openCV for python in the raspberry pi follow the steps from:
+> https://github.com/tizianofiorenzani/how_do_drones_work/blob/master/opencv/OPENCV_INSTALL.txt
+
