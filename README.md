@@ -2,9 +2,9 @@
 
 Notas importantes
 
-Para La RaspBerry
+Para La Raspberry
 
-SIEMPRE QUE LA RASPBERRY REBOOTE A UBIQUITY
+## SIEMPRE QUE EN LA RASPBERRY SE BOOTEE POR PRIMERA VEZ  CON  UBIQUITY OS HACER LO SIGUIENTE:
 
 Al instalar ubiquity se deben poner los **repositorios** de:
 ```
