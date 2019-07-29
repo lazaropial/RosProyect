@@ -8,9 +8,9 @@ SIEMPRE QUE LA RASPBERRY REBOOTE A UBIQUITY
 
 Al instalar ubiquity se deben poner los **repositorios** de:
 ```
-UNIVERSE
-MULTIVERSE
-RESTRICTED
+UNIVERSE: sudo add-apt-repository universe
+MULTIVERSE:sudo add-apt-repository multiverse
+RESTRICTED: sudo add-apt-repository restricted
 ```
 Configurar locales usando los siguientes pasos:
 ```
