@@ -1,5 +1,10 @@
 # TASKS
 
+## NODES ESTANDARIZATION
+> Node_Device_Developer
+
+> Example: Node_GPS_Charlie
+
 ## PRINTED CIRCUIT BOARD (PCB)
 ```
 David
