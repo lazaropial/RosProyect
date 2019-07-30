@@ -29,3 +29,5 @@ To stream the video through ssh run the following command:
  ```
  then run the opencv video example, and you should be able to see the video
  
+for reference to implement Tkinter in ROS:
+> https://github.com/Choitek/mmmros-tutorials/blob/master/mmm_teleop/teleop_node.py
