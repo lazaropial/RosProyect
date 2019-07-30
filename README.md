@@ -22,7 +22,7 @@ A window will appear, just ignore everything and lick "ok"
 To install openCV for python in the raspberry pi follow the steps from:
 > https://github.com/tizianofiorenzani/how_do_drones_work/blob/master/opencv/OPENCV_INSTALL.txt
 
-#RUN video.py example
+##RUN video.py example
 To stream the video through ssh run the following command:
 ```
   ssh -X user@ip_user 
