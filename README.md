@@ -1,6 +1,10 @@
+
 # RosProyect
+## This is a schoolar proyect to control a mobile robot using ROS through an interface by serial communication with an xbox controller
 Important notes
 
+
+The python version used in the proyect is python 2.7
 For the raspberry pi:
 We are using ubiquity robotics operating system instead of rasbian due to it already has ROS installed
 ## Every time that the raspberry pi boots for the very fist time do the following:
@@ -25,14 +29,35 @@ To install openCV for python in the raspberry pi follow the steps from:
 Run video.py example
 To stream the video through ssh run the following command:
 ```
-  ssh -X user@ip_user 
- ```
+ssh -X user@ip_user 
+```
  then run the opencv video example, and you should be able to see the video
  
-for reference to implement Tkinter in ROS:
-> https://github.com/Choitek/mmmros-tutorials/blob/master/mmm_teleop/teleop_node.py
+## Tkinter
 
-# In case you want to use joy_node with an xbox control(in our case)
+If you don't have python then install it
+> sudo apt-get install python
+
+To make or run a interface on Tkinter its neccesary to have it installed
+```
+sudo apt-get install python-tk
+sudo apt-get install python-imaging-tk
+```
+### How to use it
+
+Open the promp of python using *promp*
+Now import Tkinter module
+```
+>>>import Tkinter
+>>>
+```
+To check if Tkinter was properly installed run
+```
+>>>Tkinter()
+```
+![Screenshot](Tk.png)
+
+## In case you want to use joy_node with an xbox control(in our case)
 You need to install the joy_node. You can copy and paste into your terminal:
 > http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick
 
