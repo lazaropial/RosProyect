@@ -31,3 +31,12 @@ To stream the video through ssh run the following command:
  
 for reference to implement Tkinter in ROS:
 > https://github.com/Choitek/mmmros-tutorials/blob/master/mmm_teleop/teleop_node.py
+
+# In case you want to use joy_node with an xbox control(in our case)
+You need to install the joy_node. You can copy and paste into your terminal:
+> http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick
+
+Be careful at the moment you type the distribution, e.g. kinetic, melodic, indigo, etc
+```
+$ sudo apt-get install ros-indigo-joy
+```
