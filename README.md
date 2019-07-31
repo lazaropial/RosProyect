@@ -37,6 +37,6 @@ You need to install the joy_node. You can copy and paste into your terminal:
 > http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick
 
 Be careful at the moment you type the distribution, e.g. kinetic, melodic, indigo, etc
-...
+```
 $ sudo apt-get install ros-indigo-joy
-...
+```
