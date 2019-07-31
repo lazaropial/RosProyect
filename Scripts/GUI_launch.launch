@@ -1,0 +1,7 @@
+<launch>
+
+<node name = "listener" pkg = "beginner_tutorials" type = "Nodo_GUI.py" output = "screen"/>
+
+<node name = "talker" pkg = "beginner_tutorials" type = "Talker_GUI.py" output = "screen"/>
+
+</launch>
